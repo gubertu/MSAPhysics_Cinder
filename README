@@ -1,0 +1,13 @@
+MSAPhysics and Cinder
+---------------------
+** Once tested on OSX
+
+[libs]
+- Open xcode and navigate into Blocks folder, add MSAPhysics, MSACore, MSAObjCPointer to Blocks
+
+[msaPhysicsBasic]
+- Don't forget to set your Cinder path. 
+- Project -> Edit Project Settings -> User-Defined -> CINDER_PATH
+- Just Compile and enjoy!!
+
+Allrights to Cinder http://libcinder.org and Msalibs http://msalibs.org
