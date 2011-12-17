@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		0097E3E50F3E9819005A4392 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0097E3E40F3E9819005A4392 /* QuickTime.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		00BAE65A0E7ED9C10018A608 /* msaPhysicsBasicApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE6590E7ED9C10018A608 /* msaPhysicsBasicApp.cpp */; };
+		00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 00CCAF14116A9FEE008396D5 /* CinderApp.icns */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
+		84321194149B1BAD009C4397 /* MSAObjCPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84321192149B1BAD009C4397 /* MSAObjCPointer.cpp */; };
+		843211A4149B1BCD009C4397 /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8432119A149B1BCD009C4397 /* Color.cpp */; };
+		843211A5149B1BCD009C4397 /* MSACoreGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 843211A1149B1BCD009C4397 /* MSACoreGL.cpp */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		BBB3327611EBD14200B43B95 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB3327511EBD14200B43B95 /* ball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		0097E3E40F3E9819005A4392 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		00BAE6590E7ED9C10018A608 /* msaPhysicsBasicApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = msaPhysicsBasicApp.cpp; path = ../src/msaPhysicsBasicApp.cpp; sourceTree = SOURCE_ROOT; };
+		00CCAF14116A9FEE008396D5 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CinderApp.icns; sourceTree = SOURCE_ROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* msaPhysicsBasic_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msaPhysicsBasic_Prefix.pch; sourceTree = "<group>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		84321192149B1BAD009C4397 /* MSAObjCPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MSAObjCPointer.cpp; path = Cinder/blocks/msalibs/MSAObjCPointer/src/MSAObjCPointer.cpp; sourceTree = DEVELOPER_DIR; };
+		84321193149B1BAD009C4397 /* MSAObjCPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAObjCPointer.h; path = Cinder/blocks/msalibs/MSAObjCPointer/src/MSAObjCPointer.h; sourceTree = DEVELOPER_DIR; };
+		84321198149B1BCD009C4397 /* ChanTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChanTraits.h; path = "Cinder/blocks/msalibs/MSACore/src/cinder-lite/ChanTraits.h"; sourceTree = DEVELOPER_DIR; };
+		84321199149B1BCD009C4397 /* CinderMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CinderMath.h; path = "Cinder/blocks/msalibs/MSACore/src/cinder-lite/CinderMath.h"; sourceTree = DEVELOPER_DIR; };
+		8432119A149B1BCD009C4397 /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Color.cpp; path = "Cinder/blocks/msalibs/MSACore/src/cinder-lite/Color.cpp"; sourceTree = DEVELOPER_DIR; };
+		8432119B149B1BCD009C4397 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Color.h; path = "Cinder/blocks/msalibs/MSACore/src/cinder-lite/Color.h"; sourceTree = DEVELOPER_DIR; };
+		8432119C149B1BCD009C4397 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector.h; path = "Cinder/blocks/msalibs/MSACore/src/cinder-lite/Vector.h"; sourceTree = DEVELOPER_DIR; };
+		8432119D149B1BCD009C4397 /* MSACore-Cinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MSACore-Cinder.h"; path = "Cinder/blocks/msalibs/MSACore/src/MSACore-Cinder.h"; sourceTree = DEVELOPER_DIR; };
+		8432119E149B1BCD009C4397 /* MSACore-OF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MSACore-OF.h"; path = "Cinder/blocks/msalibs/MSACore/src/MSACore-OF.h"; sourceTree = DEVELOPER_DIR; };
+		8432119F149B1BCD009C4397 /* MSACore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSACore.h; path = Cinder/blocks/msalibs/MSACore/src/MSACore.h; sourceTree = DEVELOPER_DIR; };
+		843211A0149B1BCD009C4397 /* MSACoreCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSACoreCommon.h; path = Cinder/blocks/msalibs/MSACore/src/MSACoreCommon.h; sourceTree = DEVELOPER_DIR; };
+		843211A1149B1BCD009C4397 /* MSACoreGL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MSACoreGL.cpp; path = Cinder/blocks/msalibs/MSACore/src/MSACoreGL.cpp; sourceTree = DEVELOPER_DIR; };
+		843211A2149B1BCD009C4397 /* MSACoreGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSACoreGL.h; path = Cinder/blocks/msalibs/MSACore/src/MSACoreGL.h; sourceTree = DEVELOPER_DIR; };
+		843211A3149B1BCD009C4397 /* MSACoreMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSACoreMath.h; path = Cinder/blocks/msalibs/MSACore/src/MSACoreMath.h; sourceTree = DEVELOPER_DIR; };
+		843211AD149BC33F009C4397 /* MSAPhysics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysics.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysics.h; sourceTree = DEVELOPER_DIR; };
+		843211AE149BC33F009C4397 /* MSAPhysics2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysics2D.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysics2D.h; sourceTree = DEVELOPER_DIR; };
+		843211AF149BC33F009C4397 /* MSAPhysics3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysics3D.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysics3D.h; sourceTree = DEVELOPER_DIR; };
+		843211B0149BC33F009C4397 /* MSAPhysicsAttraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysicsAttraction.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysicsAttraction.h; sourceTree = DEVELOPER_DIR; };
+		843211B1149BC33F009C4397 /* MSAPhysicsCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysicsCallbacks.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysicsCallbacks.h; sourceTree = DEVELOPER_DIR; };
+		843211B2149BC33F009C4397 /* MSAPhysicsConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysicsConstraint.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysicsConstraint.h; sourceTree = DEVELOPER_DIR; };
+		843211B3149BC33F009C4397 /* MSAPhysicsDataRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysicsDataRecorder.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysicsDataRecorder.h; sourceTree = DEVELOPER_DIR; };
+		843211B4149BC33F009C4397 /* MSAPhysicsParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysicsParams.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysicsParams.h; sourceTree = DEVELOPER_DIR; };
+		843211B5149BC33F009C4397 /* MSAPhysicsParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysicsParticle.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysicsParticle.h; sourceTree = DEVELOPER_DIR; };
+		843211B6149BC33F009C4397 /* MSAPhysicsParticleDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysicsParticleDrawer.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysicsParticleDrawer.h; sourceTree = DEVELOPER_DIR; };
+		843211B7149BC33F009C4397 /* MSAPhysicsParticleUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysicsParticleUpdater.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysicsParticleUpdater.h; sourceTree = DEVELOPER_DIR; };
+		843211B8149BC33F009C4397 /* MSAPhysicsSector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysicsSector.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysicsSector.h; sourceTree = DEVELOPER_DIR; };
+		843211B9149BC33F009C4397 /* MSAPhysicsSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysicsSpring.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysicsSpring.h; sourceTree = DEVELOPER_DIR; };
+		843211BA149BC33F009C4397 /* MSAPhysicsWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAPhysicsWorld.h; path = Cinder/blocks/msalibs/MSAPhysics/src/MSAPhysicsWorld.h; sourceTree = DEVELOPER_DIR; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* msaPhysicsBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = msaPhysicsBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB3327511EBD14200B43B95 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = ../resources/ball.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				0097E3E50F3E9819005A4392 /* QuickTime.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				00BAE6590E7ED9C10018A608 /* msaPhysicsBasicApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				0097E3E40F3E9819005A4392 /* QuickTime.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				53E3CDFB0E86099300238D2B /* Carbon.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* msaPhysicsBasic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* msaPhysicsBasic */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3309311EBBF7100B43B95 /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = msaPhysicsBasic;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* msaPhysicsBasic_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3327511EBD14200B43B95 /* ball.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				00CCAF14116A9FEE008396D5 /* CinderApp.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84321190149B1B91009C4397 /* MSAObjCPointer */ = {
+			isa = PBXGroup;
+			children = (
+				84321191149B1BAD009C4397 /* src */,
+			);
+			name = MSAObjCPointer;
+			sourceTree = "<group>";
+		};
+		84321191149B1BAD009C4397 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				84321192149B1BAD009C4397 /* MSAObjCPointer.cpp */,
+				84321193149B1BAD009C4397 /* MSAObjCPointer.h */,
+			);
+			name = src;
+			path = Cinder/blocks/msalibs/MSAObjCPointer/src;
+			sourceTree = DEVELOPER_DIR;
+		};
+		84321195149B1BC1009C4397 /* MSACore */ = {
+			isa = PBXGroup;
+			children = (
+				84321196149B1BCD009C4397 /* src */,
+			);
+			name = MSACore;
+			sourceTree = "<group>";
+		};
+		84321196149B1BCD009C4397 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				84321197149B1BCD009C4397 /* cinder-lite */,
+				8432119D149B1BCD009C4397 /* MSACore-Cinder.h */,
+				8432119E149B1BCD009C4397 /* MSACore-OF.h */,
+				8432119F149B1BCD009C4397 /* MSACore.h */,
+				843211A0149B1BCD009C4397 /* MSACoreCommon.h */,
+				843211A1149B1BCD009C4397 /* MSACoreGL.cpp */,
+				843211A2149B1BCD009C4397 /* MSACoreGL.h */,
+				843211A3149B1BCD009C4397 /* MSACoreMath.h */,
+			);
+			name = src;
+			path = Cinder/blocks/msalibs/MSACore/src;
+			sourceTree = DEVELOPER_DIR;
+		};
+		84321197149B1BCD009C4397 /* cinder-lite */ = {
+			isa = PBXGroup;
+			children = (
+				84321198149B1BCD009C4397 /* ChanTraits.h */,
+				84321199149B1BCD009C4397 /* CinderMath.h */,
+				8432119A149B1BCD009C4397 /* Color.cpp */,
+				8432119B149B1BCD009C4397 /* Color.h */,
+				8432119C149B1BCD009C4397 /* Vector.h */,
+			);
+			name = "cinder-lite";
+			path = "Cinder/blocks/msalibs/MSACore/src/cinder-lite";
+			sourceTree = DEVELOPER_DIR;
+		};
+		843211A8149BC331009C4397 /* MSAPhysics */ = {
+			isa = PBXGroup;
+			children = (
+				843211AC149BC33F009C4397 /* src */,
+			);
+			name = MSAPhysics;
+			sourceTree = "<group>";
+		};
+		843211AC149BC33F009C4397 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				843211AD149BC33F009C4397 /* MSAPhysics.h */,
+				843211AE149BC33F009C4397 /* MSAPhysics2D.h */,
+				843211AF149BC33F009C4397 /* MSAPhysics3D.h */,
+				843211B0149BC33F009C4397 /* MSAPhysicsAttraction.h */,
+				843211B1149BC33F009C4397 /* MSAPhysicsCallbacks.h */,
+				843211B2149BC33F009C4397 /* MSAPhysicsConstraint.h */,
+				843211B3149BC33F009C4397 /* MSAPhysicsDataRecorder.h */,
+				843211B4149BC33F009C4397 /* MSAPhysicsParams.h */,
+				843211B5149BC33F009C4397 /* MSAPhysicsParticle.h */,
+				843211B6149BC33F009C4397 /* MSAPhysicsParticleDrawer.h */,
+				843211B7149BC33F009C4397 /* MSAPhysicsParticleUpdater.h */,
+				843211B8149BC33F009C4397 /* MSAPhysicsSector.h */,
+				843211B9149BC33F009C4397 /* MSAPhysicsSpring.h */,
+				843211BA149BC33F009C4397 /* MSAPhysicsWorld.h */,
+			);
+			name = src;
+			path = Cinder/blocks/msalibs/MSAPhysics/src;
+			sourceTree = DEVELOPER_DIR;
+		};
+		BBB3309311EBBF7100B43B95 /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				843211A8149BC331009C4397 /* MSAPhysics */,
+				84321195149B1BC1009C4397 /* MSACore */,
+				84321190149B1B91009C4397 /* MSAObjCPointer */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* msaPhysicsBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "msaPhysicsBasic" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = msaPhysicsBasic;
+			productInstallPath = "$(HOME)/Applications";
+			productName = msaPhysicsBasic;
+			productReference = 8D1107320486CEB800E47090 /* msaPhysicsBasic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "msaPhysicsBasic" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* msaPhysicsBasic */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* msaPhysicsBasic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */,
+				BBB3327611EBD14200B43B95 /* ball.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BAE65A0E7ED9C10018A608 /* msaPhysicsBasicApp.cpp in Sources */,
+				84321194149B1BAD009C4397 /* MSAObjCPointer.cpp in Sources */,
+				843211A4149B1BCD009C4397 /* Color.cpp in Sources */,
+				843211A5149B1BCD009C4397 /* MSACoreGL.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = msaPhysicsBasic_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder_d.a\"",
+					"-lcurl",
+				);
+				PRODUCT_NAME = msaPhysicsBasic;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = msaPhysicsBasic_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder.a\"",
+					"-lcurl",
+				);
+				PRODUCT_NAME = msaPhysicsBasic;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = /Developer/Cinder;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = /Developer/Cinder;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "msaPhysicsBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "msaPhysicsBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
